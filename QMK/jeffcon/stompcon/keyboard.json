@@ -1,0 +1,8 @@
+{
+    "keyboard_name": "stompcon",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct": [["GP18","GP19","GP20"],["GP11","GP12","GP13"]]
+    }
+}

@@ -1,2 +1,1 @@
-# StompCon
-Foot based controller using qmk
+Coppy JeffCon folder into your QMK keyboards/handwired folder and compile keyboards/handwired/JeffCon/StompCon
