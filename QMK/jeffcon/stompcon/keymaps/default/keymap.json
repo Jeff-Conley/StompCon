@@ -1,0 +1,10 @@
+{
+    "keyboard": "jeffcon/stompcon",
+    "keymap": "default",
+    "layout": "LAYOUT",
+    "layers": [
+        [
+            "LGUI(KC_F1)","KC_MEDIA_PLAY_PAUSE", "KC_MEDIA_STOP", "LGUI(KC_F7)", "LGUI(KC_F8)","LGUI(KC_F9)"
+    ]
+    ]
+}

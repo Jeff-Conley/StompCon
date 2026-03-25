@@ -1,8 +1,33 @@
 {
     "keyboard_name": "stompcon",
+    "manufacturer": "jeffcon",
+    "maintainer": "jeff-conley",
     "processor": "RP2040",
     "bootloader": "rp2040",
+     "features": {
+        "extrakey": true
+        },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0042",
+        "device_version": "0.0.2"
+    },
     "matrix_pins": {
-        "direct": [["GP18","GP19","GP20"],["GP11","GP12","GP13"]]
+        "direct": [
+            ["GP18","GP19","GP20","GP11", "GP12","GP13"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "GP18", "matrix": [0, 0], "x": 0, "y": 1},
+                {"label": "GP19", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "GP20", "matrix": [0, 2], "x": 2, "y": 1},
+                {"label": "GP11", "matrix": [0, 3], "x": 3, "y": 1},
+                {"label": "GP12", "matrix": [0, 4], "x": 4, "y": 0},
+                {"label": "GP13", "matrix": [0, 5], "x": 5, "y": 1}
+            ]
+        }
     }
+
 }
